@@ -1,0 +1,21 @@
+tcpdump: listening on eth0, link-type EN10MB (Ethernet), capture size 65535 bytes
+23:53:58.161560 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto UDP (17), length 38)
+    172.31.33.5.54170 > 52.36.181.172.8800: [udp sum ok] UDP, length 10
+	0x0000:  4500 0026 0000 4000 4011 83d2 ac1f 2105  E..&..@.@.....!.
+	0x0010:  3424 b5ac d39a 2260 0012 51c5 636f 636b  4$...."`..Q.cock
+	0x0020:  6b6b 6b63 636b
+23:53:58.161757 IP (tos 0x0, ttl 63, id 0, offset 0, flags [DF], proto UDP (17), length 38)
+    52.36.181.172.54170 > 172.31.33.5.8800: [udp sum ok] UDP, length 10
+	0x0000:  4500 0026 0000 4000 3f11 84d2 3424 b5ac  E..&..@.?...4$..
+	0x0010:  ac1f 2105 d39a 2260 0012 51c5 636f 636b  ..!..."`..Q.cock
+	0x0020:  6b6b 6b63 636b          
+00:23:55.094184 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto UDP (17), length 127)
+    172.31.33.5.54170 > 52.36.181.172.8800: [udp sum ok] UDP, length 99
+	0x0000:  4500 007f 0000 4000 4011 8379 ac1f 2105  E.....@.@..y..!.
+	0x0010:  3424 b5ac d39a 2260 006b deb4 7364 7373  4$...."`.k..sdss
+	0x0020:  7373 7373 7373 7373 7373 7373 7373 7373  ssssssssssssssss
+	0x0030:  7373 7373 7373 7373 7373 7373 7373 7373  ssssssssssssssss
+	0x0040:  7373 7373 7373 7373 7373 7373 7373 7373  ssssssssssssssss
+	0x0050:  7373 7373 7373 7373 7373 7373 7373 7373  ssssssssssssssss
+	0x0060:  731b 5b43 7364 7373 7373 7373 7373 7373  s.[Csdssssssssss
+	0x0070:  7373 7373 7373 7373 7373 7373 7373 73    sssssssssssssss
