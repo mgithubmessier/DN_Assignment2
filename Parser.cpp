@@ -3,7 +3,14 @@
 #include <cstdio>
 #include <memory>
 #include <stdio.h>
+#include <sstream>
+#include <cstring>
 
+string to_string(int i) {
+  stringstream ss;
+  ss << i;
+  return ss.str();
+}
 void setIterator(char *acInput, int *iIterator, int iLineNumber) {
 	iLineNumber *= 10;
 	string zlineNumber = to_string(iLineNumber);

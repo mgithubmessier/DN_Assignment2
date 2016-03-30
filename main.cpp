@@ -1,7 +1,8 @@
 #include <Parser.h>
 #include <fstream>
 #include <iostream>
-
+#include <cstring>
+#include <algorithm>
 string getExample() {
 	cout << "main:getExample()" << endl;
 	fstream inputFile;
